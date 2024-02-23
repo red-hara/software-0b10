@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://b1fp5mdo3uf5p"]
+
+[ext_resource type="PackedScene" uid="uid://5yst5760sjc4" path="res://Prefab/Task/TaskScene.tscn" id="1_qmohg"]
+
+[node name="Main" type="Node3D"]
+
+[node name="TaskScene" parent="." instance=ExtResource("1_qmohg")]
